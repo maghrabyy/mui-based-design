@@ -9,16 +9,33 @@ import codingImg from '../assets/coding.png';
 import brandingImg from '../assets/branding.png';
 import seoImg from '../assets/seo.png';
 
+export const FloatingServicesCards = () => {
+  return (
+    <section className="hidden md:block absolute md:-bottom-[250px] left-1/2 -translate-x-1/2 w-full">
+      <Container>
+        <Grid container spacing={1}>
+          <ServicesCard img={designImg} title="UX / UI Design" />
+          <ServicesCard img={codingImg} title="Development" />
+          <ServicesCard img={brandingImg} title="Branding" />
+          <ServicesCard img={seoImg} title="Search Optimization" />
+        </Grid>
+      </Container>
+    </section>
+  );
+};
+
 export const ServicesCards = () => {
   return (
-    <Container className="absolute lg:-bottom-[250px] left-1/2 -translate-x-1/2">
-      <Grid container spacing={1}>
-        <ServicesCard img={designImg} title="UX / UI Design" />
-        <ServicesCard img={codingImg} title="Development" />
-        <ServicesCard img={brandingImg} title="Branding" />
-        <ServicesCard img={seoImg} title="Search Optimization" />
-      </Grid>
-    </Container>
+    <section className="block md:hidden py-4">
+      <Container>
+        <Grid container spacing={1}>
+          <ServicesCard img={designImg} title="UX / UI Design" />
+          <ServicesCard img={codingImg} title="Development" />
+          <ServicesCard img={brandingImg} title="Branding" />
+          <ServicesCard img={seoImg} title="Search Optimization" />
+        </Grid>
+      </Container>
+    </section>
   );
 };
 

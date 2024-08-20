@@ -5,10 +5,11 @@ import { PortfolioSection } from '../components/Portfolio';
 import { Testimonial } from '../components/Testimonial';
 import { ContactUs } from '../components/ContactUs';
 import { NewsLetter } from '../components/NewsLetter';
-
+import { ServicesCards } from '../components/Services';
 export const Homepage = () => {
   return (
     <>
+      <ServicesCards />
       <OurTeamSection />
       <Achievements />
       <PortfolioSection />

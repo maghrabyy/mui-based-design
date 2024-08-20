@@ -8,7 +8,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import PublicIcon from '@mui/icons-material/Public';
 import headerImg from '../assets/header.jpg';
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
-import { ServicesCards } from './Services';
+import { FloatingServicesCards } from './Services';
 import MenuIcon from '@mui/icons-material/Menu';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -27,7 +27,7 @@ export const Header = () => {
     { title: 'Contact', href: '#contact-us' },
   ];
   return (
-    <header className="pt-1 pb-4 min-h-screen space-y-4 bg-black bg-opacity-80 relative mb-[185vh] 2xs:mb-[140vh] xs:mb-[100vh] sm:mb-[130vh] md:mb-[115vh] lg:mb-[50vh]">
+    <header className="pt-1 pb-4 min-h-screen space-y-4 bg-black bg-opacity-80 relative md:mb-[40vh] xl:mb=[20vh]">
       <div
         style={{
           backgroundImage: `url(${headerImg})`,
@@ -141,7 +141,7 @@ export const Header = () => {
           </Grid>
         </Grid>
       </Container>
-      <ServicesCards />
+      <FloatingServicesCards />
     </header>
   );
 };
