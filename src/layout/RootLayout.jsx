@@ -2,7 +2,7 @@ import { Homepage } from '../pages/Homepage';
 import { Header } from '../components/MainHeader';
 import { Footer } from '../components/Footer';
 import FixedNavbar from '../components/FixedNavbar';
-import { MyDrawer } from '../components/myDrawer';
+import { MyDrawer } from '../components/MyDrawer';
 import { useDrawerToggler } from '../context/DrawerTogglerContext';
 
 export const RootLayout = () => {
