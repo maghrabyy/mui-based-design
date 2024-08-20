@@ -27,7 +27,7 @@ export const Header = () => {
     { title: 'Contact', href: '#contact-us' },
   ];
   return (
-    <header className="pt-1 pb-4 min-h-screen space-y-4 bg-black bg-opacity-80 relative mb-[250vh] sm:mb-[130vh] md:mb-[115vh] lg:mb-[50vh]">
+    <header className="pt-1 pb-4 min-h-screen space-y-4 bg-black bg-opacity-80 relative mb-[185vh] 2xs:mb-[140vh] xs:mb-[100vh] sm:mb-[130vh] md:mb-[115vh] lg:mb-[50vh]">
       <div
         style={{
           backgroundImage: `url(${headerImg})`,
