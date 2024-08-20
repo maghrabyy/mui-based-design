@@ -8,7 +8,7 @@ import { AccordionDetails } from '@mui/material';
 import { Card } from '@mui/material';
 import { CardContent } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import faqImg from '../assets/FaqImg.jpg';
+import faqImg from '../assets/faqImg.jpg';
 
 export const FrequentlyAskedQuestions = () => {
   return (
